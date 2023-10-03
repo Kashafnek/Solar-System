@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.solar-system {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.sun {
+  width: 100px;
+  height: 100px;
+  background-color: #f39c12;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  z-index: 1;
+}
+
+.planet {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+}
+
+.earth {
+  background-color: #3498db;
+}
+
+.moon {
+  width: 10px;
+  height: 10px;
+  background-color: #bdc3c7;
+  border-radius: 50%;
+  position: absolute;
+}
